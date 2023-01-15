@@ -1,0 +1,266 @@
+
+/* navigation bar */
+nav {
+    display: flex;
+}
+
+.head-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #3A3A3A;
+    margin-right: 475px;
+    margin-left: 120px;
+    font-feature-settings: 'liga' off;
+
+}
+
+nav ul {
+    display: flex;
+
+
+
+}
+
+nav li {
+    list-style: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+    margin-right: 34px;
+}
+
+/*---------------- camera ----------------------*/
+.camera {
+    display: flex;
+    margin-top: 145px;
+    margin-bottom: 170px;
+}
+
+.camera-setting {
+    width: 582px;
+    height: 270px;
+    margin-left: 120px;
+
+}
+
+.camera-title {
+    width: 582px;
+    height: 133px;
+    font-weight: 700;
+    font-size: 52px;
+    color: #3A3A3A;
+    line-height: 70px;
+    margin-bottom: 16px;
+}
+
+.camera-body {
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+
+.btn-primary {
+    background: #E02C6D;
+    border-radius: 41px;
+    width: 196px;
+    height: 44px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+
+}
+
+.camera-img {
+    width: 440px;
+    height: 414px;
+    margin-right: 165px;
+
+}
+
+/*----------------------- logos----------------------- */
+.logos {
+    margin-left: 140px;
+    margin-bottom: 100px;
+    width: 1110px;
+    height: 110px;
+}
+
+.logo ul {
+    display: flex;
+    width: 986.47px;
+    height: 39.61px;
+}
+
+.logo ul li {
+    margin-right: 61px;
+    list-style: none;
+}
+
+/*------------------------------------ Collection ----------------*/
+.container {
+    margin-bottom: 100px;
+
+}
+
+.container-title {
+    margin-left: 555px;
+    margin-bottom: 30px;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 120px;
+
+
+}
+
+.banner-body {}
+
+.container-title {
+    font-weight: 600;
+    font-size: 28px;
+    color: #18191F;
+
+}
+
+.collection-banner,
+img {
+    border-radius: 5px;
+
+}
+
+.collection-banner,
+h4 {
+    margin-top: 16px;
+    width: 151px font-weight: 500;
+    font-size: 28px;
+}
+
+.dollar {
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 2px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.rating-star {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+    width: 16px;
+    height: 16px;
+    gap: 15px;
+
+}
+
+.rating {
+    font-weight: 700;
+    font-size: 14px;
+    color: #5E6366;
+}
+
+.rating-title {
+    font-weight: 700;
+    font-size: 14px;
+    height: 61px;
+    left: 210px;
+    color: #787885;
+}
+
+/* .see-more {
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: 700;
+    font-size: 16px;
+    margin: bottom 0, right 0;
+} */
+
+
+/*--------------------------------- products-banner ----------------------------------*/
+.products {
+    display: flex;
+    gap: 96px;
+    margin-left: 165px;
+    width: 1110px;
+    height: 270px;
+    margin-bottom: 100px;
+}
+
+
+.products-banner {
+    width: 404px;
+    height: 270px;
+    border-radius: 7px;
+}
+
+.products-title {
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+}
+
+.products-description {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+    width: 501px;
+    height: 88px
+}
+
+.last-btn {
+    background: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+
+
+/*------------------ footer ------------------*/
+.footer {
+    background-color: #0A0826;
+    text-align: center;
+    width: 1340px;
+    height: 239px;
+    color: #FFFFFF;
+    padding-top: 50px;
+
+
+}
+
+.footer,
+h2 {
+    font-weight: 700;
+    font-size: 24px;
+    
+}
+
+.footer,
+h3 {
+    font-weight: 700;
+    font-size: 14px;
+    color: #D9DBE1;
+}
+
+.footer,p {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.font ul{
+    display: flex;
+    margin-left: 578px;
+}
+.font ul li{
+    list-style: none;
+    margin-right: 15px;
+}
